@@ -1,5 +1,5 @@
 <!-- <strong>{{ $contact->name }}</strong><br><br> -->
-<h3 class="profile-username">
+<h3 class="profile-username tw-font-sans">
     <i class="fas fa-user-tie"></i>
     {{ $contact->name }}
     <small>
@@ -10,36 +10,36 @@
         @endif
     </small>
 </h3><br>
-<strong><i class="fa fa-map-marker margin-r-5"></i> @lang('business.address')</strong>
+<strong><i class="fa fa-map-marker margin-r-5 tw-font-sans"></i> @lang('business.address')</strong>
 <p class="text-muted">
     {!! $contact->contact_address !!}
 </p>
 @if($contact->supplier_business_name)
-    <strong><i class="fa fa-briefcase margin-r-5"></i> 
+    <strong><i class="fa fa-briefcase margin-r-5 tw-font-sans"></i> 
     @lang('business.business_name')</strong>
     <p class="text-muted">
         {{ $contact->supplier_business_name }}
     </p>
 @endif
 
-<strong><i class="fa fa-mobile margin-r-5"></i> @lang('contact.mobile')</strong>
+<strong><i class="fa fa-mobile margin-r-5 tw-font-sans"></i> @lang('contact.mobile')</strong>
 <p class="text-muted">
     {{ $contact->mobile }}
 </p>
 @if($contact->landline)
-    <strong><i class="fa fa-phone margin-r-5"></i> @lang('contact.landline')</strong>
+    <strong><i class="fa fa-phone margin-r-5 tw-font-sans"></i> @lang('contact.landline')</strong>
     <p class="text-muted">
         {{ $contact->landline }}
     </p>
 @endif
 @if($contact->alternate_number)
-    <strong><i class="fa fa-phone margin-r-5"></i> @lang('contact.alternate_contact_number')</strong>
+    <strong><i class="fa fa-phone margin-r-5 tw-font-sans"></i> @lang('contact.alternate_contact_number')</strong>
     <p class="text-muted">
         {{ $contact->alternate_number }}
     </p>
 @endif
 @if($contact->dob)
-    <strong><i class="fa fa-calendar margin-r-5"></i> @lang('lang_v1.dob')</strong>
+    <strong><i class="fa fa-calendar margin-r-5 tw-font-sans"></i> @lang('lang_v1.dob')</strong>
     <p class="text-muted">
         {{ @format_date($contact->dob) }}
     </p>

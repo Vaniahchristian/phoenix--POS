@@ -10,14 +10,14 @@
 @endif
 @section('content')
 <!-- Content Header (Page header) -->
-<section class="content-header">
+<section class="content-header tw-font-sans">
     <h1> @lang('lang_v1.'.$type.'s')
         <small>@lang( 'contact.manage_your_contact', ['contacts' =>  __('lang_v1.'.$type.'s') ])</small>
     </h1>
 </section>
 
 <!-- Main content -->
-<section class="content">
+<section class="content tw-font-sans">
     @component('components.filters', ['title' => __('report.filters')])
     @if($type == 'customer')
         <div class="col-md-3">

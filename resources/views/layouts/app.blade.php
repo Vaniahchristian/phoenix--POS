@@ -29,6 +29,9 @@
         
         @include('layouts.partials.css')
 
+        <!-- Add Font Awesome -->
+        <script src="https://kit.fontawesome.com/76d87e93bf.js" crossorigin="anonymous"></script>
+
         @yield('css')
     </head>
 

@@ -1,4 +1,4 @@
-<table class="table table-bordered" 
+<table class="table table-bordered tw-font-sans" 
 id="contact_payments_table">
     <thead>
         <tr>

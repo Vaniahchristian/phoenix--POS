@@ -1,14 +1,14 @@
-<div class="modal-dialog" role="document">
-  <div class="modal-content">
+<div class="modal-dialog tw-font-sans" role="document">
+  <div class="modal-content tw-font-sans">
 
     {!! Form::open(['url' => action('AccountController@store'), 'method' => 'post', 'id' => 'payment_account_form' ]) !!}
 
-    <div class="modal-header">
+    <div class="modal-header tw-font-sans">
       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
       <h4 class="modal-title">@lang( 'account.add_account' )</h4>
     </div>
 
-    <div class="modal-body">
+    <div class="modal-body tw-font-sans">
             <div class="form-group">
                 {!! Form::label('name', __( 'lang_v1.name' ) .":*") !!}
                 {!! Form::text('name', null, ['class' => 'form-control', 'required','placeholder' => __( 'lang_v1.name' ) ]); !!}
@@ -19,7 +19,7 @@
                 {!! Form::text('account_number', null, ['class' => 'form-control', 'required','placeholder' => __( 'account.account_number' ) ]); !!}
             </div>
 
-            <div class="form-group">
+            <div class="form-group tw-font-sans">
                 {!! Form::label('account_type_id', __( 'account.account_type' ) .":") !!}
                 <select name="account_type_id" class="form-control select2">\
                     <option>@lang('messages.please_select')</option>

@@ -4,13 +4,13 @@
 @section('content')
 
 <!-- Content Header (Page header) -->
-<section class="content-header">
+<section class="content-header tw-font-sans">
     <h1>@lang('lang_v1.cash_flow')
     </h1>
 </section>
 
 <!-- Main content -->
-<section class="content no-print">
+<section class="content no-print tw-font-sans">
     <div class="row">
         <div class="col-sm-12">
             <div class="box box-solid">

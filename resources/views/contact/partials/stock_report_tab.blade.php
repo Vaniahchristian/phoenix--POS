@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row tw-font-sans">
 	<div class="col-md-4">
 	    <div class="form-group">
 	        {!! Form::label('sr_location_id',  __('purchase.business_location') . ':') !!}

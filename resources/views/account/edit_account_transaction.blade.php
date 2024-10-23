@@ -1,14 +1,14 @@
-<div class="modal-dialog" role="document">
-  <div class="modal-content">
+<div class="modal-dialog tw-font-sans" role="document">
+  <div class="modal-content tw-font-sans">
 
     {!! Form::open(['url' => action('AccountController@updateAccountTransaction', ['id' => $account_transaction->id ]), 'method' => 'post', 'id' => 'edit_account_transaction_form' ]) !!}
 
-    <div class="modal-header">
+    <div class="modal-header tw-font-sans">
       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
       <h4 class="modal-title">@if($account_transaction->sub_type == 'opening_balance')@lang( 'lang_v1.edit_opening_balance' ) @elseif($account_transaction->sub_type == 'fund_transfer') @lang( 'lang_v1.edit_fund_transfer' ) @elseif($account_transaction->sub_type == 'deposit') @lang( 'lang_v1.edit_deposit' ) @endif</h4>
     </div>
 
-    <div class="modal-body">
+    <div class="modal-body tw-font-sans">
             <div class="form-group">
                 <strong>@lang('account.selected_account')</strong>: 
                 {{$account_transaction->account->name}}

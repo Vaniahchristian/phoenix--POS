@@ -6,13 +6,13 @@
         $api_key = env('GOOGLE_MAP_API_KEY');
     @endphp
 <!-- Content Header (Page header) -->
-<section class="content-header">
+<section class="content-header tw-font-sans">
     <h1> @lang('lang_v1.contact_locations')
     </h1>
 </section>
 
 <!-- Main content -->
-<section class="content">
+<section class="content tw-font-sans">
     @component('components.widget', ['class' => 'box-solid'])
         {!! Form::open(['url' => action('ContactController@contactMap'), 'method' => 'get']) !!}
             <div class="col-md-6">

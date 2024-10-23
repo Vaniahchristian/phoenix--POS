@@ -12,8 +12,8 @@
 
     $transaction_types['opening_balance'] = __('lang_v1.opening_balance');
 @endphp
-<div class="row">
-    <div class="col-md-12">
+<div class="row" tw-font-sans>
+    <div class="col-md-12 tw-font-sans">
         <div class="col-md-3">
             <div class="form-group">
                 {!! Form::label('ledger_date_range', __('report.date_range') . ':') !!}

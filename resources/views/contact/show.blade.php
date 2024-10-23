@@ -4,7 +4,7 @@
 @section('content')
 
 <!-- Main content -->
-<section class="content no-print">
+<section class="content no-print tw-font-sans">
     <div class="row no-print">
         <div class="col-md-4">
             <h3>@lang('contact.view_contact')</h3>

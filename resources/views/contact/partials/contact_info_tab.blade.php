@@ -1,6 +1,6 @@
 <span id="view_contact_page"></span>
-<div class="row">
-    <div class="col-md-12">
+<div class="row tw-font-sans">
+    <div class="col-md-12 tw-font-sans">
         <div class="col-sm-3">
             @include('contact.contact_basic_info')
         </div>
