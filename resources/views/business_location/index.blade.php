@@ -4,7 +4,7 @@
 @section('content')
 
 <!-- Content Header (Page header) -->
-<section class="content-header">
+<section class="content-header tw-font-sans tw-font-sans">
     <h1>@lang( 'business.business_locations' )
         <small>@lang( 'business.manage_your_business_locations' )</small>
     </h1>
@@ -15,7 +15,7 @@
 </section>
 
 <!-- Main content -->
-<section class="content">
+<section class="content tw-font-sans tw-font-sans">
     @component('components.widget', ['class' => 'box-primary', 'title' => __( 'business.all_your_business_locations' )])
         @slot('tool')
             <div class="box-tools">

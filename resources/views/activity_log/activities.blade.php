@@ -1,5 +1,5 @@
 @if(!empty($activities))
-<table class="table table-condensed">
+<table class="table table-condensed tw-font-sans">
     <tr>
         <th>@lang('lang_v1.date')</th>
         <th>@lang('messages.action')</th>

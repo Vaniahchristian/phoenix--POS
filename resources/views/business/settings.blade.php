@@ -4,20 +4,20 @@
 @section('content')
 
 <!-- Content Header (Page header) -->
-<section class="content-header">
+<section class="content-header tw-font-sans">
     <h1>@lang('business.business_settings')</h1>
     <br>
     @include('layouts.partials.search_settings')
 </section>
 
 <!-- Main content -->
-<section class="content">
+<section class="content tw-font-sans">
 {!! Form::open(['url' => action('BusinessController@postBusinessSettings'), 'method' => 'post', 'id' => 'bussiness_edit_form',
            'files' => true ]) !!}
     <div class="row">
         <div class="col-xs-12">
        <!--  <pos-tab-container> -->
-        <div class="col-xs-12 pos-tab-container">
+        <div class="col-xs-12 pos-tab-container tw-font-sans">
             <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 pos-tab-menu">
                 <div class="list-group">
                     <a href="#" class="list-group-item text-center active">@lang('business.business')</a>
@@ -37,7 +37,7 @@
                     <a href="#" class="list-group-item text-center">@lang('lang_v1.custom_labels')</a>
                 </div>
             </div>
-            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 pos-tab">
+            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 pos-tab tw-font-sans">
                 <!-- tab 1 start -->
                 @include('business.partials.settings_business')
                 <!-- tab 1 end -->

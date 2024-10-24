@@ -1,5 +1,5 @@
-<div class="modal-dialog modal-lg" role="document">
-  <div class="modal-content">
+<div class="modal-dialog modal-lg tw-font-sans" role="document">
+  <div class="modal-content tw-font-sans">
 
     {!! Form::open(['url' => action('BusinessLocationController@store'), 'method' => 'post', 'id' => 'business_location_add_form' ]) !!}
 

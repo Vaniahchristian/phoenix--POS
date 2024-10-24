@@ -1,5 +1,5 @@
-<div class="modal-dialog modal-lg" role="document">
-  <div class="modal-content">
+<div class="modal-dialog modal-lg tw-font-sans" role="document">
+  <div class="modal-content tw-font-sans">
     {!! Form::open(['url' => action('CashRegisterController@postCloseRegister'), 'method' => 'post' ]) !!}
 
     {!! Form::hidden('user_id', $register_details->user_id); !!}

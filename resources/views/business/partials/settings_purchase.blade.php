@@ -1,5 +1,5 @@
 <!--Purchase related settings -->
-<div class="pos-tab-content">
+<div class="pos-tab-content tw-font-sans">
     <div class="row">
     @if(!config('constants.disable_purchase_in_other_currency', true))
     <div class="col-sm-4">

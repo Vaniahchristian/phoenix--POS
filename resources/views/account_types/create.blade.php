@@ -1,5 +1,5 @@
-<div class="modal-dialog" role="document">
-  	<div class="modal-content">
+<div class="modal-dialog tw-font-sans" role="document">
+  	<div class="modal-content tw-font-sans">
 
     {!! Form::open(['url' => action('AccountTypeController@store'), 'method' => 'post', 'id' => 'account_type_form' ]) !!}
     <div class="modal-header">

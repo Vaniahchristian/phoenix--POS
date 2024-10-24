@@ -4,12 +4,12 @@
 @section('content')
 
 <!-- Content Header (Page header) -->
-<section class="content-header">
+<section class="content-header tw-font-sans">
     <h1>{{ __('account.payment_account_report')}}</h1>
 </section>
 
 <!-- Main content -->
-<section class="content no-print">
+<section class="content no-print tw-font-sans">
     <div class="row">
         <div class="col-md-12">
             <div class="box box-primary" id="accordion">

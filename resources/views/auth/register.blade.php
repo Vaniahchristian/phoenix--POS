@@ -2,11 +2,11 @@
 
 @section('content')
 
-<div class="row">
+<div class="row tw-font-sans">
 
     <h1 class="page-header text-center">{{ config('app.name', 'ultimatePOS') }}</h2>
     
-    <div class="col-md-8 col-md-offset-2">
+    <div class="col-md-8 col-md-offset-2 tw-font-sans">
         
         <div class="box box-solid">
             <div class="box-header with-border">

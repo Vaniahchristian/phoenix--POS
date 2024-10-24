@@ -4,13 +4,13 @@
 @section('content')
 
 <!-- Content Header (Page header) -->
-<section class="content-header">
+<section class="content-header tw-font-sans">
     <h1>@lang('lang_v1.backup')
     </h1>
 </section>
 
 <!-- Main content -->
-<section class="content">
+<section class="content tw-font-sans">
     
   @if (session('notification') || !empty($notification))
     <div class="row">

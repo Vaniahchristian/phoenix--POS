@@ -8,7 +8,7 @@
 
 </style>
 <!-- Content Header (Page header) -->
-<section class="content-header">
+<section class="content-header tw-font-sans">
     <h1>@lang('barcode.add_barcode_setting')</h1>
     <!-- <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
@@ -17,7 +17,7 @@
 </section>
 
 <!-- Main content -->
-<section class="content">
+<section class="content tw-font-sans">
 {!! Form::open(['url' => action('BarcodeController@store'), 'method' => 'post', 
 'id' => 'add_barcode_settings_form' ]) !!}
 	<div class="box box-solid">

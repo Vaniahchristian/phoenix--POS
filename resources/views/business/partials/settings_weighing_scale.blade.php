@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row tw-font-sans">
     <div class="col-sm-12">
         <h4>@lang('lang_v1.weighing_scale_setting'):</h4>
         <p>@lang('lang_v1.weighing_scale_setting_help')</p>
@@ -11,7 +11,7 @@
 	4th part: Dropdown list from 1 to 4 for Quantity decimals. -->
 
 
-    <div class="col-sm-3">
+    <div class="col-sm-3 tw-font-sans">
         <div class="form-group">
             {!! Form::label('label_prefix', __('lang_v1.weighing_barcode_prefix') . ':') !!}
              {!! Form::text('weighing_scale_setting[label_prefix]', isset($weighing_scale_setting['label_prefix']) ? $weighing_scale_setting['label_prefix'] : null, ['class' => 'form-control', 'id' => 'label_prefix']); !!}

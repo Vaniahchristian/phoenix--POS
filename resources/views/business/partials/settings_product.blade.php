@@ -1,4 +1,4 @@
-<div class="pos-tab-content">
+<div class="pos-tab-content tw-font-sans">
     <div class="row">
         <div class="col-sm-4">
             <div class="form-group">

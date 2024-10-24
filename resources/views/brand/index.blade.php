@@ -4,7 +4,7 @@
 @section('content')
 
 <!-- Content Header (Page header) -->
-<section class="content-header">
+<section class="content-header tw-font-sans">
     <h1>@lang( 'brand.brands' )
         <small>@lang( 'brand.manage_your_brands' )</small>
     </h1>
@@ -15,7 +15,7 @@
 </section>
 
 <!-- Main content -->
-<section class="content">
+<section class="content tw-font-sans">
     @component('components.widget', ['class' => 'box-primary', 'title' => __( 'brand.all_your_brands' )])
         @can('brand.create')
             @slot('tool')

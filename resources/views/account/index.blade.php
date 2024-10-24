@@ -3,14 +3,14 @@
 
 @section('content')
 <!-- Content Header (Page header) -->
-<section class="content-header">
+<section class="content-header tw-font-sans">
     <h1>@lang('lang_v1.payment_accounts')
         <small>@lang('account.manage_your_account')</small>
     </h1>
 </section>
 
 <!-- Main content -->
-<section class="content">
+<section class="content tw-font-sans">
     @if(!empty($not_linked_payments))
         <div class="row">
             <div class="col-sm-12">

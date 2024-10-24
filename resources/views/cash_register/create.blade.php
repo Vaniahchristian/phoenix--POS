@@ -8,7 +8,7 @@
 
 </style>
 <!-- Content Header (Page header) -->
-<section class="content-header">
+<section class="content-header tw-font-sans">
     <h1>@lang('cash_register.open_cash_register')</h1>
     <!-- <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
@@ -17,7 +17,7 @@
 </section>
 
 <!-- Main content -->
-<section class="content">
+<section class="content tw-font-sans">
 {!! Form::open(['url' => action('CashRegisterController@store'), 'method' => 'post', 
 'id' => 'add_cash_register_form' ]) !!}
   <div class="box box-solid">

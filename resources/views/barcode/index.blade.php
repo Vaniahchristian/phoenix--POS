@@ -4,7 +4,7 @@
 @section('content')
 
 <!-- Content Header (Page header) -->
-<section class="content-header">
+<section class="content-header tw-font-sans">
     <h1>@lang('barcode.barcodes')
         <small>@lang('barcode.manage_your_barcodes')</small>
     </h1>
@@ -15,7 +15,7 @@
 </section>
 
 <!-- Main content -->
-<section class="content">
+<section class="content tw-font-sans">
     @component('components.widget', ['class' => 'box-primary', 'title' => __('barcode.all_your_barcode')])
         @slot('tool')
             <div class="box-tools">

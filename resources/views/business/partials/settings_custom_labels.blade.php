@@ -1,4 +1,4 @@
-<div class="pos-tab-content">
+<div class="pos-tab-content tw-font-sans">
      <div class="row">
         <div class="col-sm-12">
             <h4>@lang('lang_v1.labels_for_custom_payments'):</h4>

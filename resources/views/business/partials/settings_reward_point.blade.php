@@ -1,5 +1,5 @@
-<div class="pos-tab-content">
-<div class="row well">
+<div class="pos-tab-content tw-font-sans">
+<div class="row well tw-font-sans">
     <div class="col-sm-4">
         <div class="form-group">
             <div class="checkbox">

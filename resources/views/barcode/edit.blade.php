@@ -8,12 +8,12 @@
 
 </style>
 <!-- Content Header (Page header) -->
-<section class="content-header">
+<section class="content-header tw-font-sans">
     <h1>@lang('barcode.edit_barcode_setting')</h1>
 </section>
 
 <!-- Main content -->
-<section class="content">
+<section class="content tw-font-sans">
 {!! Form::open(['url' => action('BarcodeController@update', [$barcode->id]), 'method' => 'PUT', 
 'id' => 'add_barcode_settings_form' ]) !!}
   <div class="box box-solid">

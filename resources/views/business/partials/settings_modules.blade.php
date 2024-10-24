@@ -1,4 +1,4 @@
-<div class="pos-tab-content">
+<div class="pos-tab-content tw-font-sans">
 	<div class="row">
 	@if(!empty($modules))
 		<h4>@lang('lang_v1.enable_disable_modules')</h4>

@@ -4,13 +4,13 @@
 @section('content')
 
 <!-- Content Header (Page header) -->
-<section class="content-header">
+<section class="content-header tw-font-sans">
     <h1>@lang('account.account_book')
     </h1>
 </section>
 
 <!-- Main content -->
-<section class="content">
+<section class="content tw-font-sans">
     <div class="row">
         <div class="col-sm-4 col-xs-6">
             <div class="box box-solid">

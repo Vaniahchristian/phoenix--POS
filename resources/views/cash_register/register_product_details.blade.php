@@ -1,5 +1,5 @@
-<div class="row">
-  <div class="col-md-12">
+<div class="row tw-font-sans">
+  <div class="col-md-12 tw-font-sans">
     <hr>
     <h3>@lang('lang_v1.product_sold_details_register')</h3>
     <table class="table table-condensed">

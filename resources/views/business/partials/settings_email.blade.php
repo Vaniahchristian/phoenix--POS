@@ -1,4 +1,4 @@
-<div class="pos-tab-content">
+<div class="pos-tab-content tw-font-sans">
     <div class="row">
         @if(!empty($allow_superadmin_email_settings))
         <div class="col-xs-12">

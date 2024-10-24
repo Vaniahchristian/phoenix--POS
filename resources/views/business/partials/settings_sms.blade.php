@@ -1,8 +1,8 @@
 @php
     $sms_service = isset($sms_settings['sms_service']) ? $sms_settings['sms_service'] : 'other';
 @endphp
-<div class="pos-tab-content">
-    <div class="row">
+<div class="pos-tab-content tw-font-sans">
+    <div class="row tw-font-sans">
         <div class="col-xs-3">
             <div class="form-group">
                 {!! Form::label('sms_service', __('lang_v1.sms_service') . ':') !!}

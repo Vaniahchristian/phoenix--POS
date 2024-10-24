@@ -5,7 +5,7 @@
 
 <fieldset>
 <legend>@lang('business.business_details'):</legend>
-<div class="col-md-12">
+<div class="col-md-12 tw-font-sans">
     <div class="form-group">
         {!! Form::label('name', __('business.business_name') . ':*' ) !!}
         <div class="input-group">
@@ -17,7 +17,7 @@
     </div>
 </div>
         
-<div class="col-md-6">
+<div class="col-md-6 tw-font-sans">
     <div class="form-group">
     {!! Form::label('start_date', __('business.start_date') . ':') !!}
     <div class="input-group">
@@ -28,7 +28,7 @@
     </div>
     </div>
 </div>
-<div class="col-md-6">
+<div class="col-md-6 tw-font-sans">
     <div class="form-group">
     {!! Form::label('currency_id', __('business.currency') . ':*') !!}
     <div class="input-group">
@@ -40,13 +40,13 @@
     </div>
 </div>
 <div class="clearfix"></div>
-<div class="col-md-6">
+<div class="col-md-6 tw-font-sans">
     <div class="form-group">
         {!! Form::label('business_logo', __('business.upload_logo') . ':') !!}
         {!! Form::file('business_logo', ['accept' => 'image/*']); !!}
     </div>
 </div>
-<div class="col-md-6">
+<div class="col-md-6 tw-font-sans">
     <div class="form-group">
         {!! Form::label('website', __('lang_v1.website') . ':') !!}
         <div class="input-group">
@@ -58,7 +58,7 @@
     </div>
 </div>
 <div class="clearfix"></div>
-<div class="col-md-6">
+<div class="col-md-6 tw-font-sans">
     <div class="form-group">
     {!! Form::label('mobile', __('lang_v1.business_telephone') . ':') !!}
     <div class="input-group">
@@ -70,7 +70,7 @@
     </div>
 </div>
 
-<div class="col-md-6">
+<div class="col-md-6 tw-font-sans">
     <div class="form-group">
         {!! Form::label('alternate_number', __('business.alternate_number') . ':') !!}
         <div class="input-group">
@@ -84,7 +84,7 @@
 
 <div class="clearfix"></div>
 
-<div class="col-md-6">
+<div class="col-md-6 tw-font-sans">
     <div class="form-group">
     {!! Form::label('country', __('business.country') . ':*') !!}
     <div class="input-group">
@@ -96,7 +96,7 @@
     </div>
 </div>
 
-<div class="col-md-6">
+<div class="col-md-6 tw-font-sans">
     <div class="form-group">
     {!! Form::label('state',__('business.state') . ':*') !!}
     <div class="input-group">
@@ -108,7 +108,7 @@
     </div>
 </div>
 <div class="clearfix"></div>
-<div class="col-md-6">
+<div class="col-md-6 tw-font-sans">
     <div class="form-group">
     {!! Form::label('city',__('business.city'). ':*') !!}
     <div class="input-group">
@@ -119,7 +119,7 @@
     </div>
     </div>
 </div>
-<div class="col-md-6">
+<div class="col-md-6 tw-font-sans">
     <div class="form-group">
     {!! Form::label('zip_code', __('business.zip_code') . ':*') !!}
     <div class="input-group">
@@ -131,7 +131,7 @@
     </div>
 </div>
 <div class="clearfix"></div>
-<div class="col-md-6">
+<div class="col-md-6 tw-font-sans">
     <div class="form-group">
     {!! Form::label('landmark', __('business.landmark') . ':*') !!}
     <div class="input-group">
@@ -142,7 +142,7 @@
     </div>
     </div>
 </div>
-<div class="col-md-6">
+<div class="col-md-6 tw-font-sans">
     <div class="form-group">
         {!! Form::label('time_zone', __('business.time_zone') . ':*') !!}
         <div class="input-group">
@@ -162,7 +162,7 @@
     <fieldset>
     <legend>@lang('business.business_settings'):</legend>
     <div class="col-md-6">
-        <div class="form-group">
+        <div class="form-group tw-font-sans">
             {!! Form::label('tax_label_1', __('business.tax_1_name') . ':') !!}
             <div class="input-group">
                 <span class="input-group-addon">
@@ -173,7 +173,7 @@
         </div>
     </div>
 
-    <div class="col-md-6">
+    <div class="col-md-6 tw-font-sans">
         <div class="form-group">
             {!! Form::label('tax_number_1', __('business.tax_1_no') . ':') !!}
             <div class="input-group">
@@ -185,7 +185,7 @@
         </div>
     </div>
     <div class="clearfix"></div>
-    <div class="col-md-6">
+    <div class="col-md-6 tw-font-sans">
         <div class="form-group">
             {!! Form::label('tax_label_2',__('business.tax_2_name') . ':') !!}
             <div class="input-group">
@@ -197,7 +197,7 @@
         </div>
     </div>
 
-    <div class="col-md-6">
+    <div class="col-md-6 tw-font-sans">
         <div class="form-group">
             {!! Form::label('tax_number_2',__('business.tax_2_no') . ':') !!}
             <div class="input-group">
@@ -209,7 +209,7 @@
         </div>
     </div>
     <div class="clearfix"></div>
-    <div class="col-md-6">
+    <div class="col-md-6 tw-font-sans">
         <div class="form-group">
             {!! Form::label('fy_start_month', __('business.fy_start_month') . ':*') !!} @show_tooltip(__('tooltip.fy_start_month'))
             <div class="input-group">
@@ -220,7 +220,7 @@
             </div>
         </div>
     </div>
-    <div class="col-sm-6">
+    <div class="col-sm-6 tw-font-sans">
         <div class="form-group">
             {!! Form::label('accounting_method', __('business.accounting_method') . ':*') !!}
             <div class="input-group">
@@ -241,7 +241,7 @@
 
 <fieldset>
 <legend>@lang('business.owner_info')</legend>
-<div class="col-md-4">
+<div class="col-md-4 tw-font-sans">
     <div class="form-group">
         {!! Form::label('surname', __('business.prefix') . ':') !!}
         <div class="input-group">
@@ -253,7 +253,7 @@
     </div>
 </div>
 
-<div class="col-md-4">
+<div class="col-md-4 tw-font-sans">
     <div class="form-group">
         {!! Form::label('first_name', __('business.first_name') . ':*') !!}
         <div class="input-group">
@@ -265,7 +265,7 @@
     </div>
 </div>
 
-<div class="col-md-4">
+<div class="col-md-4 tw-font-sans">
     <div class="form-group">
         {!! Form::label('last_name', __('business.last_name') . ':') !!}
         <div class="input-group">
@@ -277,7 +277,7 @@
     </div>
 </div>
 <div class="clearfix"></div>
-<div class="col-md-6">
+<div class="col-md-6 tw-font-sans">
     <div class="form-group">
         {!! Form::label('username', __('business.username') . ':*') !!}
         <div class="input-group">
@@ -289,7 +289,7 @@
     </div>
 </div>
 
-<div class="col-md-6">
+<div class="col-md-6 tw-font-sans">
     <div class="form-group">
         {!! Form::label('email', __('business.email') . ':') !!}
         <div class="input-group">
@@ -301,7 +301,7 @@
     </div>
 </div>
 <div class="clearfix"></div>
-<div class="col-md-6">
+<div class="col-md-6 tw-font-sans">
     <div class="form-group">
         {!! Form::label('password', __('business.password') . ':*') !!}
         <div class="input-group">
@@ -313,7 +313,7 @@
     </div>
 </div>
 
-<div class="col-md-6">
+<div class="col-md-6 tw-font-sans">
     <div class="form-group">
         {!! Form::label('confirm_password', __('business.confirm_password') . ':*') !!}
         <div class="input-group">
@@ -325,7 +325,7 @@
     </div>
 </div>
 <div class="clearfix"></div>
-<div class="col-md-6">
+<div class="col-md-6 tw-font-sans">
     @if(!empty($system_settings['superadmin_enable_register_tc']))
         <div class="form-group">
             <label>

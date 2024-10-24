@@ -4,7 +4,7 @@
 @section('content')
 
 <!-- Content Header (Page header) -->
-<section class="content-header">
+<section class="content-header tw-font-sans ">
     <h1>@lang( 'cash_register.cash_register' )
         <small>@lang( 'cash_register.manage_your_cash_register' )</small>
     </h1>
@@ -15,7 +15,7 @@
 </section>
 
 <!-- Main content -->
-<section class="content">
+<section class="content tw-font-sans">
 
 	<div class="box">
         <div class="box-header">

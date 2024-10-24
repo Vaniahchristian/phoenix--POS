@@ -1,4 +1,4 @@
-<div class="pos-tab-content">
+<div class="pos-tab-content tw-font-sans">
     <h4>@lang('business.add_keyboard_shortcuts'):</h4>
     <p class="help-block">@lang('lang_v1.shortcut_help'); @lang('lang_v1.example'): <b>ctrl+shift+b</b>, <b>ctrl+h</b></p>
     <p class="help-block">

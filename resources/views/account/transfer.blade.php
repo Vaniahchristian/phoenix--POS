@@ -1,5 +1,5 @@
-<div class="modal-dialog" role="document">
-  <div class="modal-content">
+<div class="modal-dialog tw-font-sans" role="document">
+  <div class="modal-content tw-font-sans">
 
     {!! Form::open(['url' => action('AccountController@postFundTransfer'), 'method' => 'post', 'id' => 'fund_transfer_form', 'files' => true ]) !!}
 

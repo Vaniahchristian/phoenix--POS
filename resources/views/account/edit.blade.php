@@ -1,5 +1,5 @@
-<div class="modal-dialog tw-font-sans" role="document">
-  <div class="modal-content tw-font-sans">
+<div class="modal-dialog tw-font-sans tw-font-sans" role="document">
+  <div class="modal-content tw-font-sans tw-font-sans">
 
     {!! Form::open(['url' => action('AccountController@update',$account->id), 'method' => 'PUT', 'id' => 'edit_payment_account_form' ]) !!}
 

@@ -1,5 +1,5 @@
-<div class="modal-dialog" role="document">
-  <div class="modal-content">
+<div class="modal-dialog tw-font-sans" role="document">
+  <div class="modal-content tw-font-sans">
 
     {!! Form::open(['url' => action('BrandController@store'), 'method' => 'post', 'id' => $quick_add ? 'quick_add_brand_form' : 'brand_add_form' ]) !!}
 

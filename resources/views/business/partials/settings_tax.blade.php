@@ -1,5 +1,5 @@
-<div class="pos-tab-content">
-    <div class="row">
+<div class="pos-tab-content tw-font-sans">
+    <div class="row tw-font-sans">
         <div class="col-sm-4">
             <div class="form-group">
                 {!! Form::label('tax_label_1', __('business.tax_1_name') . ':') !!}
